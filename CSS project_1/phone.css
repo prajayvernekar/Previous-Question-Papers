@@ -1,0 +1,138 @@
+.hr2{
+    display: none;
+}
+
+.six-box h2 {
+    margin-left: 0;
+    text-align: center;
+    font-size: x-large;
+}
+.six-box {
+    padding: 0;
+}
+
+.five-box h2 {
+    margin-left: 0;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.hr1{
+    display: none;
+}
+
+.syllabus-block{
+    flex-direction: column;
+    width: 200px;
+}
+
+.book{
+    height: 250px;
+    width: 180px;
+    margin: 20px 0 20px 10px;
+}
+
+.box-four {
+    text-align: center;
+    padding: 60px 0px;
+}
+
+.card {
+    width: 205px;
+    flex-direction: column;
+}
+
+.footer{
+    flex-direction: column;
+}
+
+.contactblock{
+    padding: 25px;
+}
+
+.signalandcontrol,.powerandipr{
+    flex-direction: column;
+}
+.dspandpse {
+    flex-direction: column;
+}
+
+.fifth-sem {
+    width: 313px;
+}
+.sixth-sem {
+    width: 313px;
+}
+.subject2 {
+    padding: 30px 0px;
+}
+.subject1 {
+    padding: 0 0px;
+}
+.subject5 {
+    padding: 10px 0px;
+}
+.subject4 {
+    padding: 10px 0px;
+}
+
+.ramaiah-logo {
+    margin: 5px auto;
+}
+
+.box h1 {
+    margin: 0;
+    font-size: 58px;
+
+}
+.box h2 {
+    margin: auto;
+    font-size: 22px;
+}
+
+.waste{
+    display: none;
+}
+
+.subject {
+    padding: 12px 1px;
+}
+
+.header {
+    flex-direction: column;
+    padding: 10px;
+}
+.navbar {
+    padding-top: 15px;
+}
+
+.syllabus-block {
+    padding: 15px;
+}
+
+.logo-name {
+    justify-content: center;
+}
+
+.box {
+    left: 30px;
+}
+
+.animation h3 {
+    font-size: large;
+}
+
+.navbar {
+    justify-content: center;
+}
+
+.ani-box1 h3{
+    font-size: large;
+}
+.ani-box h3{
+    font-size: large;
+}
+
+#small-small p{
+    font-size: small;
+}
