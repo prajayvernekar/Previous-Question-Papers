@@ -197,7 +197,7 @@ span{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 0 72px;
+    margin: auto;
 }
 
 .subject1 {
@@ -205,14 +205,14 @@ span{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 0 74px;
+    margin: auto;
 }
 .subject2 {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 0 31px;
+    margin: auto;
 }
 
 .fifthsem-heading,.sixthsem-heading{
@@ -248,14 +248,14 @@ span{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 10px 38px;
+    margin: auto;
 }
 .subject5{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 10px 67px;
+    margin: auto;
 }
 
 .sixth-sem{
