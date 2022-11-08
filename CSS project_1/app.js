@@ -50,7 +50,7 @@ let button = document.querySelector('.button1');
             if(dropdown.classList.contains('hide')){
                 dropdown.classList.remove('hide');
                 header1.style.background = "linear-gradient(to right,rgb(12, 12, 12),rgb(40, 38, 38), rgb(61, 61, 61))";
-                menu1.innerHTML = "🗙"
+                menu1.innerHTML = "✖"
                 // menu1.style.
             }
             else{
