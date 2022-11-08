@@ -8,29 +8,43 @@
     <link rel="stylesheet" href="CSS project_1\project_1.css">
     <link rel="stylesheet" media="screen and (max-width: 695px)" href="CSS project_1\phone.css">
     <link rel="shortcut icon" href="project_1(icon).png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Raleway:wght@300&family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header id="Home" class="header">
-        <div class="logo-name">
+    <div class="header1">
+       <header id="Home" class="header">
+         <div class="logo-name">
             <img src="photos\The_flash_logo.png" alt="web logo" class="logo">
             <h1>EEE</h1>
-        </div>
+         </div>
 
-        <div class="navbar">
-        <a href="#Home">Home</a>
-        <a href="#syllabus">Syllabus</a>
-        <a target="_blank" href="remark.html">Remark</a>
-        <a href="#contact">Contact</a>
+         <div class="menu">
+           <b>☰</b>
+         </div>
+
+         <div class="navbar">
+          <a href="#Home"> <i class="fa-solid fa-house"></i> Home</a>
+          <a href="#syllabus"> <i class="fa-solid fa-book"></i> Syllabus</a>
+          <a target="_blank" href="remark.html"><i class="fa-solid fa-pen-to-square"></i> Remark</a>
+          <a href="#contact"><i class="fa-solid fa-address-book"></i> Contact</a>
+         </div>
+       </header>
+
+        <div id="dropdown" class="dropdown hide">
+            <a href="#Home"> <i class="fa-solid fa-house"></i> Home</a>
+            <a href="#syllabus"> <i class="fa-solid fa-book"></i> Syllabus</a>
+            <a target="_blank" href="remark.html"><i class="fa-solid fa-pen-to-square"></i> Remark</a>
+            <a href="#contact"><i class="fa-solid fa-address-book"></i> Contact</a>
         </div>
-    </header>
+    </div>
 
     <div style="background: url('photos/BG img.jpg'); background-position:360px;" class="top">
         <div class="box">
             <h2>&nbsp;Previous Year</h2>
             <h1>Question Papers</h1>
         </div>
-
     </div>
 
     <div class="ani-box">
@@ -38,36 +52,37 @@
             <h3>👍 Best Of Luck 👍</h3>
         </marquee>
     </div>
-    <div style="background: url('photos/cardback.PNG')" class="box-four">
+    <div style="background: url('https://img.freepik.com/free-vector/white-abstract-wallpaper_23-2148830026.jpg?w=2000')" class="box-four">
             <h2>FOR</h2>
             <div class="card">
                 <img class="ramaiah-logo" src="photos\Ramaiah_Institutions_Logo.png" alt="ramaiah logo">
                 <div>
                     <h3>Ramaiah Institute Of Technology</h3><br>
                     <p>For the benefit of the students of the Ramaiah Institute of Technology, the previous year's
-                    electrical and electronics engineering exam question papers for semesters five and six are posted here.</p>
+                       electrical and electronics engineering exam question papers for semesters fifth, sixth and seventh are posted here.</p>
                 </div>
             </div>
     </div>
 
-    <div style="background: url('photos/6.jpg'); background-size: cover; " class="five-box">
+    <div  class="five-box">
         <h2 id="syllabus">Syllabus</h2>
 
         <div class="syllabus-block">
             <a href="question papers\5th sem syllabus.pdf"><img class="book" src="photos\book1.png" alt="5th sem syllabus"></a>
             <a href="question papers\6th sem syllabus.pdf"><img class="book" src="photos\book3.png" alt="6th sem syllabus"></a>
+            <a href="question papers\7th sem syllabus.pdf"><img class="book" src="photos\book 4.png" alt="7th sem syllabus"></a>
         </div>
     </div>
-    <div class="ani-box1">
-        <marquee behavior="alternate">
-            <h3><span>Note:</span> Only the core question papers has been uploaded</h3>
-        </marquee>
-    </div>
+    
 
-    <div style="background: url('photos/cardback.PNG')" class="six-box">
+    <div style="background: url('https://media.istockphoto.com/vectors/faded-gray-or-white-grey-coloured-grunge-textured-horizontal-vector-vector-id1367786603?b=1&k=20&m=1367786603&s=170667a&w=0&h=tYJaDx_Y_gT_Tf35gf3Ped9LgO4_iHMWuILoeoW0rMs=')" class="six-box">
         <h2>Question Papers</h2>
 
-        <div class="fifth-sem">
+        <div class="button1">
+            5th sem Q/P
+        </div>
+
+        <div class="fifth-sem work">
             <h3 class="fifthsem-heading">Electrical 5th Sem</h3>
             <div id="SandC" class="signalandcontrol">
                 <div class="subject">
@@ -82,10 +97,9 @@
                     <a class="use" href="question papers\SS\MAKEUP june 2017.doc">MAKEUP 2017</a>
                     <a class="use" href="question papers\SS\MAKEUP june 2018.doc">MAKEUP 2018</a>
                     <a class="use" href="question papers\SS\MAKEUP july 2019.doc">MAKEUP 2019</a>
-                    <a class="waste" href="#">-</a>
-                    <a class="waste" href="#">-</a>
-                    <a class="waste" href="#">-</a>
-
+                    <p class="waste" >.</p>
+                    <p class="waste" >.</p>
+                    <p class="waste" >.</p>
                 </div>
                 <div class="subject">
                     <h3 class="subname">Control Systems</h3>
@@ -145,23 +159,27 @@
                     <a class="use" href="question papers\IPR\MAKEUP feb 2018.doc">MAKEUP 2018</a>
                     <a class="use" href="question papers\IPR\MAKEUP feb 2019.doc">MAKEUP 2019</a>
                     <a class="use" href="question papers\IPR\MAKEUP feb 2020.doc">MAKEUP 2020</a>
-                    <a class="waste" href="">-</a>
-                    <a class="waste" href="">-</a>
-                    <a class="waste" href="">-</a>
-                    <a class="waste" href="">-</a>
-                    <a class="waste" href="">-</a>
-                    <a class="waste" href="">-</a>
-                    <a class="waste" href="">-</a>
-                    <a class="waste" href="">-</a>
-                    <a class="waste" href="">-</a>
-                    <a class="waste" href="">-</a>
-                    <a class="waste" href="">-</a>
+                    <p class="waste1" >.</p>
+                    <p class="waste1" >.</p>
+                    <p class="waste1" >.</p>
+                    <p class="waste1" >.</p>
+                    <p class="waste1" >.</p>
+                    <p class="waste1" >.</p>
+                    <p class="waste1" >.</p>
+                    <p class="waste1" >.</p>
+                    <p class="waste1" >.</p>
+                    <p class="waste1" >.</p>
+                    <p class="waste1" >.</p>
                 </div>
             </div>
 
         </div>
 
-        <div class="sixth-sem">
+        <div class="button2">
+            6th sem Q/P
+        </div>
+
+        <div class="sixth-sem work1">
             <h3 class="sixthsem-heading">Electrical 6th Sem</h3>
             <div class="dspandpse">
                 <div class="subject4">
@@ -177,9 +195,9 @@
                     <a class="use" href="question papers\dsp\MAKEUP (2018).doc">MAKEUP (2018)</a>
                     <a class="use" href="question papers\dsp\MAKEUP (2019).doc">MAKEUP (2019)</a>
                     <a class="use" href="question papers\dsp\MAKEUP (2020).doc">MAKEUP (2020)</a>
-                    <a class="waste" href="">-</a>
-                    <a class="waste" href="">-</a>
-                    <a class="waste" href="">-</a>
+                    <p class="waste" >.</p>
+                    <p class="waste" >.</p>
+                    <p class="waste" >.</p>
 
 
                 </div>
@@ -203,6 +221,165 @@
             </div>
 
         </div>
+
+        <div class="button3">
+            7th sem Q/P
+        </div>
+
+        <div class="seventh-sem work2">
+            <h3 class="seventhsem-heading">Electrical 7th Sem</h3>
+            <div class="SWgearandHV">
+                <div class="subject6">
+                    <h3 class="subname">Switchgear & Protection</h3>
+                    <a class="use" href="question papers\switch gear\2017 SEE.doc">SEE (2017)</a>
+                    <a class="use" href="question papers\switch gear\SEE 2018.doc">SEE (2018)</a>
+                    <a class="use" href="question papers\switch gear\SEE 2019.doc">SEE (2019)</a>
+                    <a class="use" href="question papers\switch gear\SEE 2020.doc">SEE (2020)</a>
+                    <a class="use" href="question papers\switch gear\SEE 2021.doc">SEE (2021)</a>
+                    <a class="use" href="question papers\switch gear\SEE 2022.doc">SEE (2022)</a>
+                    <a class="use" href="question papers\switch gear\suppl 2018.doc">suppl 2018</a>
+                    <a class="use" href="question papers\switch gear\suppl 2019.doc">suppl 2019</a>
+                    <a class="use" href="question papers\switch gear\suppl 2020.doc">suppl 2020</a>
+                    <a class="use" href="question papers\switch gear\suppl 2021.doc">suppl 2021</a>
+                    <a class="use" href="question papers\switch gear\MAKEUP 2019.doc">Makeup 2019</a>
+                    <a class="use" href="question papers\switch gear\MAKEUP 2020.doc">Makeup 2020</a>
+                    <a class="use" href="question papers\switch gear\MAKEUP 2021.doc">Makeup 2021</a>
+                    <p class="waste" >.</p>
+                    <p class="waste" >.</p>
+                    <p class="waste" >.</p>
+                    <p class="waste" >.</p>
+
+
+                </div>
+                <div class="subject6">
+                    <h3 class="subname">High Voltage engineering</h3>
+                    <a class="use" href="question papers\high voltage\2016 SEE.doc">SEE (2016)</a>
+                    <a class="use" href="question papers\high voltage\SEE 2017.doc">SEE (2017)</a>
+                    <a class="use" href="question papers\high voltage\SEE 2019 ee43.doc">SEE (2019) ee43</a>
+                    <a class="use" href="question papers\high voltage\SEE 2019 ee73.doc">SEE (2019) ee73</a>
+                    <a class="use" href="question papers\high voltage\SEE 2020.doc">SEE (2020)</a>
+                    <a class="use" href="question papers\high voltage\SEE 2021.doc">SEE 2021</a>
+                    <a class="use" href="question papers\high voltage\SEE 2022.doc">SEE 2022</a>
+                    <a class="use" href="question papers\high voltage\supple 2017.doc">suppl 2017</a>
+                    <a class="use" href="question papers\high voltage\suppl 2018.doc">suppl 2018</a>
+                    <a class="use" href="question papers\high voltage\supple 2019.doc">supple 2019</a>
+                    <a class="use" href="question papers\high voltage\suppl 2020.doc">supple 2020</a>
+                    <a class="use" href="question papers\high voltage\suppl 2021.doc">suppl 2021</a>
+                    <a class="use" href="question papers\high voltage\2016 makeup.doc">MAKEUP 2016</a>
+                    <a class="use" href="question papers\high voltage\MAKEUP 2017.doc">MAKEUP 2017</a>
+                    <a class="use" href="question papers\high voltage\MAKEUP 2019.doc">MAKEUP 2019</a>
+                    <a class="use" href="question papers\high voltage\MAKEUP 2020.doc">MAKEUP 2020</a>
+                    <a class="use" href="question papers\high voltage\MAKEUP 2021.doc">MAKEUP 2021</a>
+                </div>
+            </div>
+            <div class="drivesandDIP">
+                <div class="subject7">
+                    <h3 class="subname">Electric Drives</h3>
+                    <a class="use" href="question papers\drives\Electrical Drives-EE706-SE JAN 2016.PDF">SEE (2016)</a>
+                    <a class="use" href="question papers\drives\SEE 2017.doc">SEE (2017)</a>
+                    <a class="use" href="question papers\drives\SEE 2018.doc">SEE (2018)</a>
+                    <a class="use" href="question papers\drives\SEE 2019.doc">SEE (2019)</a>
+                    <a class="use" href="question papers\drives\SEE 2020.doc">SEE 2020</a>
+                    <a class="use" href="question papers\drives\SEE 2021.doc">SEE 2021</a>
+                    <a class="use" href="question papers\drives\SEE 2022 eee11.doc">SEE 2022 eee11</a>
+                    <a class="use" href="question papers\drives\SEE 2022.doc">SEE 2022</a>
+                    <a class="use" href="question papers\drives\supple 2017.doc">supple 2017</a>
+                    <a class="use" href="question papers\drives\supple 2018.doc">supple 2018</a>
+                    <a class="use" href="question papers\drives\supll 2019.doc">supple 2019</a>
+                    <a class="use" href="question papers\drives\suppl 2020.doc">supple 2020</a>
+                    <a class="use" href="question papers\drives\suppl 2021.doc">supple 2021</a>
+                    <a class="use" href="question papers\drives\MAKEUP 2017.doc">MAKEUP 2017</a>
+                    <a class="use" href="question papers\drives\MAKEUP 2018.doc">MAKEUP 2018</a>
+                    <a class="use" href="question papers\drives\MAKEUP 2019.doc">MAKEUP 2019</a>
+                    <a class="use" href="question papers\drives\MAKEUP 2020.doc">MAKEUP 2020</a>
+                    <a class="use" href="question papers\drives\MAKEUP 2021.doc">MAKEUP 2021</a>
+
+
+                </div>
+                <div class="subject7">
+                    <h3 class="subname">Digital Image Processing</h3>
+                    <a class="use" href="question papers\digital image processing\Digital Image Processing-EEPE49-SE JAN 2016.PDF">SEE (2016)</a>
+                    <a class="use" href="question papers\digital image processing\SEE 2017.doc">SEE (2017)</a>
+                    <a class="use" href="question papers\digital image processing\SEE 2018.doc">SEE (2018)</a>
+                    <a class="use" href="question papers\digital image processing\SEE 2019.doc">SEE (2019)</a>
+                    <a class="use" href="question papers\digital image processing\SEE 2020.doc">SEE (2020)</a>
+                    <a class="use" href="question papers\digital image processing\SEE 2021.doc">SEE (2021)</a>
+                    <a class="use" href="question papers\digital image processing\SEE 2022 ee240.doc">SEE 2022 ee240</a>
+                    <a class="use" href="question papers\digital image processing\SEE 2022.doc">SEE (2022)</a>
+                    <a class="use" href="question papers\digital image processing\supple 2017.doc">supple 2017</a>
+                    <a class="use" href="question papers\digital image processing\suppl 2018.doc">supple 2018</a>
+                    <a class="use" href="question papers\digital image processing\suppl 2020.doc">supple 2020</a>
+                    <a class="use" href="question papers\digital image processing\MAKEUP 2017.doc">MAKEUP 2017</a>
+                    <a class="use" href="question papers\digital image processing\MAKEUP 2018.doc">MAKEUP 2018</a>
+                    <a class="use" href="question papers\digital image processing\MAKEUP 2019.doc">MAKEUP 2019</a>
+                    <a class="use" href="question papers\digital image processing\MAKEUP 2020.doc">MAKEUP 2020</a>
+                    <a class="use" href="question papers\digital image processing\MAKEUP 2021.doc">MAKEUP 2021</a>
+                    <p class="waste1" >.</p>
+                    <p class="waste1" >.</p>
+
+                </div>
+            </div>
+            <div class="LPICandEPG">
+                <div class="subject8">
+                    <h3 class="subname">Generation and Reliability</h3>
+                    <a class="use" href="question papers\generation\2016 SEE.doc">SEE (2016)</a>
+                    <a class="use" href="question papers\generation\SEE 2017.doc">SEE (2017)</a>
+                    <a class="use" href="question papers\generation\SEE 2019.doc">SEE (2019)</a>
+                    <a class="use" href="question papers\generation\SEE 2020.doc">SEE (2020)</a>
+                    <a class="use" href="question papers\generation\suppl 2020.doc">supple 2020</a>
+                    <a class="use" href="question papers\generation\2016  makeup.doc">MAKEUP 2016</a>
+                    <a class="use" href="question papers\generation\MAKEUP 2017.doc">MAKEUP 2017</a>
+                    <a class="use" href="question papers\generation\MAKEUP 2019.doc">MAKEUP 2019</a>
+                    <p class="waste" >.</p>
+                    <p class="waste" >.</p>
+                    <p class="waste" >.</p>
+                    <p class="waste" >.</p>
+                    <p class="waste" >.</p>
+                    <p class="waste" >.</p>
+                    <p class="waste" >.</p>
+                    <p class="waste" >.</p>
+                    <p class="waste" >.</p>
+
+                </div>
+                <div class="subject8">
+                    <h3 class="subname">Integrated Circuits</h3>
+                    <a class="use" href="question papers\LPIC\2016 SEE.doc">2016 SEE</a>
+                    <a class="use" href="question papers\LPIC\SEE 2017.doc">2017 SEE</a>
+                    <a class="use" href="question papers\LPIC\SEE 2018.doc">2018 SEE</a>
+                    <a class="use" href="question papers\LPIC\SEE 2019.doc">2019 SEE</a>
+                    <a class="use" href="question papers\LPIC\SEE 2020.doc">2020 SEE</a>
+                    <a class="use" href="question papers\LPIC\SEE 2021.doc">2021 SEE</a>
+                    <a class="use" href="question papers\LPIC\SEE 2022.doc">2022 SEE</a>
+                    <a class="use" href="question papers\LPIC\supple 2017.doc">supple 2017</a>
+                    <a class="use" href="question papers\LPIC\suppl 2018.doc">supple 2018</a>
+                    <a class="use" href="question papers\LPIC\suppl 2019.doc">supple 2019</a>
+                    <a class="use" href="question papers\LPIC\suppl 2020.doc">supple 2020</a>
+                    <a class="use" href="question papers\LPIC\suppl 2021.doc">supple 2021</a>
+                    <a class="use" href="question papers\LPIC\2016 MAKEUP.doc">MAKEUP 2016</a>
+                    <a class="use" href="question papers\LPIC\MAKEUP 2017.doc">MAKEUP 2017</a>
+                    <a class="use" href="question papers\LPIC\MAKEUP 2018.doc">MAKEUP 2018</a>
+                    <a class="use" href="question papers\LPIC\MAKEUP 2019.doc">MAKEUP 2019</a>
+                    <a class="use" href="question papers\LPIC\MAKEUP 2020.doc">MAKEUP 2020</a>
+                </div>
+            </div>
+            <div class="management">
+                <div class="subject9">
+                    <h3 class="subname">Enterprenurship & Management</h3>
+                    <a class="use" href="question papers\management\SEE 2016.doc">SEE 2016</a>
+                    <a class="use" href="question papers\management\SEE 2017.doc">SEE 2017</a>
+                    <a class="use" href="question papers\management\SEE 2018.doc">SEE 2018</a>
+                    <a class="use" href="question papers\management\SEE 2022.doc">SEE 2022</a>
+                    <a class="use" href="question papers\management\supple 2017.doc">supple 2017</a>
+                    <a class="use" href="question papers\management\suppl 2018.doc">supple 2018</a>
+                    <a class="use" href="question papers\management\MAKEUP 2016.doc">MAKEUP 2016</a>
+                    <a class="use" href="question papers\management\MAKEUP 2017.doc">MAKEUP 2017</a>
+                    <a class="use" href="question papers\management\MAKEUP 2018.doc">MAKEUP 2018</a>
+                    
+                </div>
+            </div>
+
+        </div>
+
     </div>
     <footer class="footer">
 
@@ -218,7 +395,7 @@
 
         <div class="bioblock">
             <div id="bio1" class="bio">
-                <img id="prajayimg" src="photos\prajay_img_1.png" alt="prajay's image">
+                <img id="prajayimg" src="photos\prajay smile-modified.png" alt="prajay's image">
                 <div id="small-small">
                     <h3 id="name">Prajay P Vernekar</h3>
                     <p>Hii i am prajay. this webpage lists all the previous year <br> question papers.
@@ -228,5 +405,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="CSS project_1\app.js"></script>
 </body>
 </html>
