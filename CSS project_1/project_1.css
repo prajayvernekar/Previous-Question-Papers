@@ -1,0 +1,425 @@
+*{
+    margin: 0;
+}
+
+body{
+    padding: 13px;
+    background-color: #f8f8ff;
+}
+.header1{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.logo{
+    height: 65px;
+    width: 65px;
+}
+
+.header{
+    padding: 6px 20px;
+    display: flex;
+    background-image: linear-gradient(to right,rgb(12, 12, 12),rgb(40, 38, 38), rgb(61, 61, 61));
+    justify-content: space-between;
+    border-radius: 10px;
+    /* margin-bottom: 11px; */
+}
+
+.header1{
+    margin-bottom: 12px;
+    border-radius: 10px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    color: limegreen;
+    display: none;
+    padding: 1px;
+}
+
+.logo-name{
+    display: flex;
+}
+
+.logo-name h1{
+    margin-top: 11px;
+    font-family: 'Audiowide', cursive;
+    color: limegreen;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: small;
+}
+
+.navbar a{
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: large;
+    color: limegreen;
+    display: flex;
+}
+
+.navbar i{
+    margin-right: 5px;
+}
+
+.navbar a:hover{
+    border-bottom: 1px solid;
+    color: rgb(11, 245, 175);
+}
+
+.dropdown{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right,rgb(12, 12, 12),rgb(40, 38, 38), rgb(61, 61, 61));
+    max-width: 100%;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    display: none;
+}
+.dropdown a{
+    text-decoration: none;
+    padding: 12px;
+    font-size: large;
+    color: limegreen;
+    text-align: center;
+}
+.dropdown a:hover{
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    border-radius: 20px;
+}
+
+.top{
+    height:450px;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 13px;
+    display: flex;
+    justify-content: flex-start;
+}
+.box{
+    height: 200px;
+    width: 300px;
+    position: relative;
+    top: 60px;
+    left: 70px;
+}
+.box h2{
+    color:darkblue;
+    font-size:40px;
+    text-shadow: 4px 4px 1px cyan;
+    font-family: 'Satisfy', cursive;
+}
+.box h1{
+    color:darkblue;
+    font-size:95px;
+    text-shadow: 7px 7px 2px cyan;
+    font-family: 'Satisfy', cursive;
+}
+
+.ani-box{
+    background-image: linear-gradient(to right,rgb(6, 190, 251),rgb(235, 72, 237));
+    padding: 4px 0;
+    border-radius: 10px;
+    margin-bottom: 13px;
+}
+
+.ani-box1{
+    background-color: aquamarine;
+    padding: 4px 0;
+    text-align: center;
+}
+
+.ani-box1 h3{
+    color: firebrick;
+    font-size: x-large;
+}
+.ani-box h3{
+    color: rgb(217, 255, 0);
+    font-size: x-large;
+}
+@keyframes left-right {
+    from{
+        left: 0;
+    }
+    to{
+        left: 100%;
+    }
+}
+
+.ramaiah-logo{
+    height: 120px;
+    width: 100px;
+    margin: 5px 20px;
+}
+.card{
+    display: flex;
+    border: none;
+    border-width: 3px;
+    box-shadow: 6px 6px 6px 5px grey;
+    width: 470px;
+    padding: 25px;
+    margin: 30px auto;
+    background-color: white;
+}
+
+.box-four{
+    text-align: center;
+    padding: 60px;
+    border: 4px solid lightgrey;
+    border-radius: 13px;
+    margin-bottom: 13px;
+}
+.box-four h2{
+    color: darkblue;
+    font-family: 'Cinzel', serif;
+}
+
+.syllabus-block{
+    border: none;
+    border-radius: 45px;
+    background-color: honeydew;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    margin: 40px auto 25px auto;
+}
+
+.book{
+    height: 250px;
+    width: 180px;
+    margin: 30px 30px 20px 30px;
+}
+
+.five-box{
+    border: none;
+    padding: 50px;
+    border-radius: 17px;
+    color: white;
+    margin-bottom: 13px;
+    background-image: linear-gradient(to right,rgb(95, 201, 243),rgb(163, 48, 225));
+}
+
+.five-box h2{
+    font-size:40px;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+}
+
+span{
+    color: black;
+}
+
+.six-box{
+    padding: 30px;
+    /* border: 4px solid lightgrey; */
+    border-radius: 19px;
+    margin-bottom: 13px;
+}
+.six-box h2{
+    text-align: left;
+    padding-top: 35px;
+    text-align: center;
+    font-size:40px;
+    font-family: 'Cinzel', serif;
+}
+
+.signalandcontrol,.powerandipr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 3px solid cyan;
+    border-radius: 25px;
+}
+#SandC{
+    margin: 20px 0;
+}
+.waste{
+    color: #0329ae;
+    padding: 6px;
+    text-decoration: none;
+}
+
+.waste1{
+    color: #068de8;
+    padding: 6px;
+    text-decoration: none;
+}
+
+.subject {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.subject1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+.subject2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.fifthsem-heading,.sixthsem-heading,.seventhsem-heading{
+    text-align: left;
+    margin-left: 5px;
+    font-size: x-large;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(255, 234, 0);
+}
+
+.use{
+    padding: 6px;
+    text-decoration: none;
+    color: lightcyan;
+}
+.use:hover{
+    color: hotpink;
+}
+.subname{
+    color: yellow;
+    margin-bottom: 5px;
+}
+
+.dspandpse,.SWgearandHV,.drivesandDIP,.LPICandEPG,.management{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px;
+    border: 3px solid cyan;
+    border-radius: 25px;
+}
+.subject4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.subject5,.subject6,.subject7,.subject8,.subject9{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.fifth-sem,.sixth-sem,.seventh-sem{
+    margin:  36px auto;
+    width: 600px;
+    border: none;
+    border-radius: 30px;
+    padding: 20px;
+    background-image: linear-gradient(to right,#0329ae,#1d7fe9);
+}
+
+#prajayimg{
+    height: 80px;
+    width: 80px;
+    margin: 8px 15px 0 0;
+}
+
+.footer{
+    background-image: linear-gradient(to right,rgb(12, 12, 12),rgb(40, 38, 38), rgb(57, 57, 57));
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.contactblock p{
+    padding: 10px 0 5px 0;
+}
+
+.logo1{
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+}
+
+.bio{
+    display: flex;
+}
+
+#name{
+    margin-bottom: 5px;
+}
+
+/* .button1,.button2,.button3{
+    border-radius: 30px;
+    width: 250px;
+    height: 50px;
+    background-image: linear-gradient(to right,rgb(200, 93, 67),rgb(215, 117, 32), rgb(200, 170, 23));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    cursor: pointer;
+    font-size: x-large;
+    color: blue;
+    padding: 20px;
+} */
+        
+.button1,.button2,.button3 {
+    width: 200px;
+    border-radius: 25px;
+    margin: 50px auto;
+    background-image: linear-gradient(to right, #FF4E50 0%, #F9D423  51%, #FF4E50  100%);
+    padding: 20px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    cursor: pointer;
+    font-size: x-large;
+  }
+  .button2{
+    background-image: linear-gradient(to right, #00c6ff 0%, #0072ff  51%, #00c6ff  100%);
+  }
+  .button3{
+    background-image: linear-gradient(to right, #34e89e 0%, #0f3443  51%, #34e89e  100%);
+  }
+  .button1:hover,.button2:hover,.button3:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+
+.button1 h3,.button2 h3,.button3 h3{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.work,.button1,.button2,.button3,.work1,.work2{
+    display: block;
+}
+
+.work,.work1,.work2{
+    display: none;
+}
