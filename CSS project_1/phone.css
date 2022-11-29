@@ -112,12 +112,17 @@
 .dropdown{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     background-image: linear-gradient(to right,rgb(12, 12, 12),rgb(40, 38, 38), rgb(61, 61, 61));
     max-width: 100%;
     border-radius: 10px;
     transition: 1s;
+    margin-left: 20px;
+}
+
+.dropdown i{
+    margin-right: 7px;
 }
 
 .hide{
